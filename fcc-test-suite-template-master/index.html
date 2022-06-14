@@ -1,27 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Fork Me! FCC: Test Suite Template</title>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
 
-  <body>
-    <h1>Hello World</h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <body>
+      <div>
+        <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
 
-    <!--
+      <form id="survey-form">
+        <div>
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name">
+        </div>
 
-    Hello Camper!
+<div>
+        <label for="email" id="email-label">E-Mail</label>
+        <input type="email" name="email" id="email">
+      </div>
+<div>
+        <label for="number" id="number-label">Age</label>
+        <input type="number" name="age" id="number" min="10" max="100">
+      </div>
+<div>
+        <p>Which option best describes your current role?</p>
+        <select name="role" id="dropdown">
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer Not To Say">Prefer Not To Say</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+          <input type="radio" value="definitly">Definitly
+        </label>
+        <label>
+          <input type="radio" value="maybe">Maybe
+        </label>
+        <label>
+          <input type="radio" value="notsure">Not Sure
+        </label>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
 
-    - The freeCodeCamp Team
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
-</html>
+
+      </div>
+
+
+
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+      <!--
+
+      Hello Camper!
+
+      For now, the test suite only works in Chrome!
+      Please read the README below in the JS Editor before beginning.
+      Feel free to delete this message once you have read it.
+      Good luck and Happy Coding!
+
+      - The freeCodeCamp Team
+
+      -->
+      <script  src="js/index.js"></script>
+    </body>
+  </html>
