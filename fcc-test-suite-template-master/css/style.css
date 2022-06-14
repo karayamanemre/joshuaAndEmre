@@ -1,0 +1,32 @@
+body {
+    background-color: navy;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  #header {
+    padding: 0 0.625rem;
+    
+  }
+  
+  #description {
+    font-style: italic;
+  }
+  
+  label {
+    
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .container {
+    align-items: center;
+  }
+  
